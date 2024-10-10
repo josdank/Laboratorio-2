@@ -8,45 +8,42 @@ Más abajo, se incluye una "Lista de memes" organizada en una cuadrícula de im�
 ## Imagen 
 ![image](https://github.com/user-attachments/assets/f0a97f4d-0a49-4a07-a075-c469f02fa21c)
 
+---
+
 ## API Reference
 
-#### Pokemon API
+### Pokémon API
 
-```https://pokeapi.co/api/v2/pokemon/ditto
-  [GET /api/items](https://pokeapi.co/api/v2/pokemon/ditto)
+```plaintext
+https://pokeapi.co/api/v2/pokemon/ditto
 ```
 
-| Parameter | Type     | Description                |
-| :-------- | :------- | :------------------------- |
-| `api_key` | `string` | **Required**. Your API key |
+---
 
-#### Memes API
+### Memes API
 
-```https://api.imgflip.com/get_memes
-  GET /api/items/${id}
+```plaintext
+https://api.imgflip.com/get_memes
 ```
 
-| Parameter | Type     | Description                       |
-| :-------- | :------- | :-------------------------------- |
-| `id`      | `string` | **Required**. Id of item to fetch |
 
-#### Private API
+---
 
-```api.giphy.com/v1/stickers/trending
-  GET /api/items/${id}
+### Giphy Stickers API (Private)
+
+```plaintext
+https://api.giphy.com/v1/stickers/trending
 ```
 
-| Parameter | Type     | Description                       |
-| :-------- | :------- | :-------------------------------- |
-| `id`      | `string` | **Required**. Id of item to fetch |
+---
 
-#### API key
+### API Key Example
 
-```lerx9FDWD5PH78M207Cj95ac4KTt8G3v
-  GET /api/items/${id}
+```plaintext
+lerx9FDWD5PH78M207Cj95ac4KTt8G3v
 ```
 
-| Parameter | Type     | Description                       |
-| :-------- | :------- | :-------------------------------- |
-| `id`      | `string` | **Required**. Id of item to fetch |
+> Esta es una clave de API de ejemplo para acceder a APIs privadas como la de Giphy.
+
+---
 
