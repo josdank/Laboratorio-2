@@ -13,7 +13,7 @@ Más abajo, se incluye una "Lista de memes" organizada en una cuadrícula de im�
 #### Pokemon API
 
 ```https://pokeapi.co/api/v2/pokemon/ditto
-  GET /api/items
+  [GET /api/items](https://pokeapi.co/api/v2/pokemon/ditto)
 ```
 
 | Parameter | Type     | Description                |
